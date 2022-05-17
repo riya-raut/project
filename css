@@ -1,0 +1,102 @@
+body {
+    background-color: #050524;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0e0d5c;
+  }
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active {
+    color: #050524;
+    background-color:#c3c904;
+  }
+
+.infoBox {
+    background-color: #0e0d5c;
+    margin: 20px 1px;
+    border-radius: 6px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.speakerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speaker {
+    margin: 0 10px;
+}
+
+.speakerName{
+    text-align: center;
+    margin: 2px;
+    color:#c3c904
+}
+
+.speakerImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.summaryBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary {
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.joinBox {
+    text-decoration: none;
+    color: black;
+    background-color: #c3c904;
+    padding:10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.joinBox:hover{
+    background-color: #050524;
+    color: white;
+}
+© 2022 GitHub, Inc.
